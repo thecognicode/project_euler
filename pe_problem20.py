@@ -4,7 +4,7 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-num = factorial(10)
+num = factorial(100)
 sum = 0
 while num:
     sum += num % 10
