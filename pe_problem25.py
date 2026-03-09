@@ -4,12 +4,14 @@ def fibon(n):
     else:
         return fibon(n-1) + fibon(n-2)
 
-while True:
-    if len(fibon(n)) == 4:
-        print(n)
+n = 0
 
-print(fibon(12))
-for i in range(13):
-    print(fibon(i), end=",")
-# n = 1000
-# print(len(str(n)))
+while True:
+    if len(str(fibon(n))) == 4:
+        break
+    else: 
+        n += 1
+print(n)
+
+# Test Code
+# print(len(str(fibon(n))))
