@@ -1,5 +1,5 @@
-p = 1000
-s = 0
+p = 15
+sum = 0
 
 num =  2 ** p
 # print(num)
